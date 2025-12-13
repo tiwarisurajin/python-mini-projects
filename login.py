@@ -6,8 +6,8 @@ count = 0
 while  count <3 :
      user_input = "xyz"
      user_password ="887972"
-     username = input("enter name")
-     password = input("Enter password")
+     username = input("User Name : ")
+     password = input("Password: ")
     
      if username == user_input and user_password == password :
                      print("Access Granted")
@@ -18,5 +18,7 @@ while  count <3 :
  
 if count == 2 :
      print("Number of attempts exhausted")
-     def ramesh(x,y) :
+     break
+     
+
           
